@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 5 Website Example</title>
+  <title>My Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -26,12 +26,68 @@
 </nav>
 
 <div class="container-fluid mt-3">
+  <!-- header -->
   <h3 style="font-size:40px">My Portfolio</h3>
-  <p>My name is Levi and I am a student at UCCS who is in the process of obtaining a <a href="https://eas.uccs.edu/cs/academics/undergraduate-programs/bachelor-of-science-in-computer-science">Bachelor of Science in Computer Science</a> degree.</p>
-  <p>The navbar-expand-xxl|xl|lg|md|sm class determines when the navbar should stack vertically (on xxlarge, extra large, large, medium or small screens).</p>
+  <!-- introduction-->
+  <p>My name is Levi and I am a student at the University of Colorado Colorado Springs (UCCS) who is in the process of obtaining a <a href="https://eas.uccs.edu/cs/academics/undergraduate-programs/bachelor-of-science-in-computer-science">Bachelor of Science in Computer Science</a> degree.</p>
+  
+  <!-- list things that would be put on a resume -->
+  <ul class="list-group">
+	  <li class="list-group-item">Programming Languages
+		<ul style="list-style-type:circle;">
+			<li>Python</li>
+			<li>C#</li>
+			<li>C/C++</li>
+			<li>R</li>
+		</ul>
+	  </li>
+	  <li class="list-group-item">Technical Skills
+		<ul style="list-style-type:circle;">
+			<li>Software and hardware troubleshooting</li>
+			<li>Incident ticketing and documentation</li>
+			<li>Port testing</li>
+			<li>Familiar with Linux</li>
+		</ul>
+	  </li>
+	  <li class="list-group-item">Soft Skills
+		  <ul style="list-style-type:circle;">
+				<li>Looking to learn</li>
+				<li>Driven to improve</li>
+		  </ul>
+	  </li>
+	  
+	  <!-- Project list -->
+	  <ul class="list-group list-group-horizontal  pt-3">
+		<li class="list-group-item border border-danger rounded-3">
+			<!-- Project title, and description -->
+			<h2>Project Title 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt. Vitae tempus quam pellentesque nec nam aliquam sem. Amet justo donec enim diam vulputate ut pharetra sit. Suspendisse sed nisi lacus sed viverra tellus in.<br></p>
+			<!-- add button to project as link -->
+			<a href="https://placeholder.com/text/lorem-ipsum/" class="btn btn-outline-secondary">View this Project</a>
+		</li>
+		<li class="list-group-item border border-danger rounded-3">
+			<!-- Project title, and description -->
+			<h2>Project Title 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt. Vitae tempus quam pellentesque nec nam aliquam sem. Amet justo donec enim diam vulputate ut pharetra sit. Suspendisse sed nisi lacus sed viverra tellus in.<br></p>
+			<!-- add button to project as link -->
+			<a href="https://placeholder.com/text/lorem-ipsum/" class="btn btn-outline-secondary">View this Project</a>
+		</li>
+		<li class="list-group-item border border-danger rounded-3">
+			<!-- Project title, and description -->
+			<h2>Project Title 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt. Vitae tempus quam pellentesque nec nam aliquam sem. Amet justo donec enim diam vulputate ut pharetra sit. Suspendisse sed nisi lacus sed viverra tellus in.<br></p>
+			<!-- add button to project as link -->
+			<a href="https://placeholder.com/text/lorem-ipsum/" class="btn btn-outline-secondary">View this Project</a>
+		</li>
+	  </ul> 
+  </ul> 
+
 </div>
 
-<p> Put your HTML using Bootstrap CSS</p>
+<div class="container-fluid pt-3">
+</div>
+<hr> <!--add divider-->
+<p>Created with Ruby on Rails and Bootstrap</p>
 
 </body>
 </html>
