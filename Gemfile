@@ -5,6 +5,7 @@ ruby "3.0.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3"
+gem "devise" #iteration 4, Devise User Auth, step 3 prob 1 - https://github.com/Olenderpj/CS-3300_Iteration4_Instructions
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
