@@ -14,7 +14,9 @@ Rails.application.configure do
   # Eager loading loads your whole application. When running a single test locally,
   # this probably isn't necessary. It's a good idea to do in a continuous integration
   # system, or in some way before deploying your code.
-  config.eager_load = ENV["CI"].present?
+
+  #config.eager_load = ENV["CI"].present?
+  config.eager_load = true #iteration 4, simplecov pt 2, step 1 problem 6 - https://github.com/prusselluccs/CS3300_Iteration4_Instructions
 
   # Configure public file server for tests with Cache-Control for performance.
   config.public_file_server.enabled = true

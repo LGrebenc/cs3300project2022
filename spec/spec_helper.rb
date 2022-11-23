@@ -92,3 +92,18 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+
+#iteration 4, simplecov pt 2, step 1 problem 5 - https://github.com/prusselluccs/CS3300_Iteration4_Instructions
+require 'simplecov'
+SimpleCov.start
+
+RSpec.configure do |config|
+
+  config.expect_with :rspec do |expectations|
+    expectations.include_chain_clauses_in_custom_matcher_descriptions = true
+  end
+
+  config.mock_with :rspec do |mocks|
+    mocks.verify_partial_doubles = true
+  end
+end

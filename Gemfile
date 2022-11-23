@@ -80,4 +80,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'simplecov' #iteration 4, simplecov pt 2, step 1 problem 2 - https://github.com/prusselluccs/CS3300_Iteration4_Instructions
 end

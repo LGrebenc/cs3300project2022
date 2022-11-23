@@ -33,3 +33,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+#iteration 4, simplecov pt 2, step 1 problem 7 - https://github.com/prusselluccs/CS3300_Iteration4_Instructions
+/coverage
