@@ -12,16 +12,16 @@
   <% end %>
 
   <div>
-    <%= form.label :"Project Name", style: "display: block" %>
+    <%= form.label :"Project Name:", style: "display: block" %>
     <%= form.text_field :title %>
   </div>
 
   <div>
-    <%= form.label :description, style: "display: block" %>
+    <%= form.label :"description:", style: "display: block" %>
     <%= form.text_area :description %>
   </div>
 
   <div>
-    <%=link_to "Show this project", form.submit, :class => "btn btn-danger active" %>
+    <%=link_to "Update Project", form.submit, :class => "btn btn-danger active" %>
   </div>
 <% end %>
