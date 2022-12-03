@@ -21,7 +21,17 @@
     <%= form.text_area :description %>
   </div>
 
-  <div>
-    <%=link_to "Update Project", form.submit, :class => "btn btn-danger active" %>
-  </div>
+
+  <!-- Display the correct button label between the edit view and the new view -->
+  <% if @is_new %>
+    <div>
+      <%=link_to "Create Project", form.submit, :class => "btn btn-danger active" %>
+    </div>
+
+
+  <% else %>
+    <div>
+      <%=link_to "Update Project", form.submit, :class => "btn btn-danger active" %>
+    </div>
+  <% end %>
 <% end %>
